@@ -1,26 +1,4 @@
-
-* [Advanced Data Transformation in SQL Workshop](#advanced-data-transformation-in-sql-workshop)
-    * [Live virtual workshop](#live-virtual-workshop)
-    * [Prerequisites](#prerequisites)
-    * [Setup](#setup)
-        * [Option 1: Github codespaces (Recommended)](#option-1-github-codespaces-recommended)
-        * [Option 2: Run locally](#option-2-run-locally)
-    * [Data Model](#data-model)
-    * [Topics covered in the workshop](#topics-covered-in-the-workshop)
-    * [Feedback](#feedback)
-
-# Advanced Data Transformation in SQL Workshop
-
-If you like this workshop, you'd love my [Practical Hands on Data Engineering Workshop](https://astounding-architect-5764.ck.page/684e1f422f).
-
-## Live virtual workshop
-
-The workshop will be streamed on YouTube live: [Advanced Data Processing in SQL YouTub Live](https://youtube.com/live/fB4XHC6ZaCs). Post stream, it will be available to watch and follow at your own pace.
-
-## Prerequisites
-
-1. Sign up for a Github account.
-2. Go through the [Setup](#setup) process and complete the **[0-basics](./0-basics.ipynb)** notebook exercises.
+# Advanced SQL Data Transformations
 
 ## Setup
 
@@ -36,7 +14,6 @@ Steps:
 3. In the terminal run `python setup.py` to create the tables and data necessary for the exercises.
 4. Now open the `0-basics.ipynb` (or any ipynb) and it will open in a Jupyter notebook interface. You will be asked for your kernel choice, choose `Python Environments` and then `python3.10.13 Global`.
         ![Jupyter notebook in VScode](./images/vsjupy.png)
-5. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
 
 ### Option 2: Run locally
 
@@ -46,11 +23,9 @@ Steps:
 2. Start a virtual env and install requirements.
 3. In the terminal run `python setup.py` to create the tables and data necessary for the exercises.
 4. Start Jupyter lab and run the `ipynb` notebooks.
-5. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
 
 ```bash
-git clone https://github.com/josephmachado/adv_data_transformation_in_sql.git
-cd adv_data_transformation_in_sql
+# clone repo then cd to repo folder
 python -m venv ./env # create a virtual env
 source env/bin/activate # use virtual environment
 pip install -r requirements.txt
@@ -68,10 +43,6 @@ Note: Have a copy of the data model as you follow along; this will help in under
 
 ## Topics covered in the workshop
 
-1. [Window functions](./concepts/windows/)
-2. [CTEs](./concepts/CTE/)
-3. [Common query templates for common data processing problems](./concepts/query_templates/)
-
-## Feedback
-
-I'd love to hear any feedback, please send them **[by clicking here](https://jrir55dxz0v.typeform.com/to/FH21xsvY)**.
+1. Window functions
+2. CTEs
+3. Common query templates for common data processing problems
